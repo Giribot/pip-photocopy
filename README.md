@@ -19,8 +19,15 @@
 
 ---
 
-## 🚀 Quick Start · Démarrage Rapide
+## Quick Start · Démarrage Rapide
 
 ```bash
 # 1 – Place export_env.py at the root of the working project
 python export_env.py
+
+## Good Practices · Bonnes pratiques
+Use a virtual environment (python -m venv .venv) to avoid system pollution.
+
+Regenerate pyenv_clone.txt whenever you add or upgrade packages.
+
+Test the installer on a fresh container/VM to ensure reproducibility.
