@@ -36,12 +36,15 @@ Test the installer on a fresh container/VM to ensure reproducibility.
 
 # Guide d'utilisation : Pip‑Photocopy
 
-## 1. Copier le dossier
-Copiez **Pip-Photocopy/** (ou l'ensemble du projet) sur la nouvelle machine ou dans le répertoire de travail souhaité.
+il faut mettre le script "Pip-photocopy.py" dans le même répertoire que votre script python qui marche sur votre machine puis le lancer.
+copiez les deux fichiers du contenu du répertoire "Pip-Photocopy" qui s'est créé ("pyenv_clone.txt" et "install_env.sh" OU "install_env.bat"...)
+
+## 1. Copier ces fichiers de ce répertoire créé
+ **Pip-Photocopy/** sur la nouvelle machine ou dans le répertoire de travail souhaité.
 
 ```bash
 cd /chemin/vers/your-project
-
+```
 
 ---
 
@@ -63,12 +66,14 @@ python -m venv .venv
 ---
 
 ## 3. Lancer le script d'installation
-Placez‑vous dans le dossier **Pip-Photocopy/** et exécutez :
+mettez les deux fichiers créés à la racine de votre projet ("pyenv_clone.txt" et "install_env.sh" OU "install_env.bat"...),
+Puis lancez la commande selon votre plateforme:
 
 | Plateforme | Commande |
 |------------|----------|
 | Linux / macOS | `./install_env.sh` |
 | Windows       | `install_env.bat` |
+
 
 Le script :
 1. met **pip** à jour ;
@@ -94,8 +99,11 @@ python votre_script.py
 
 # Usage Guide : Pip‑Photocopy
 
-## 1. Copy the folder
-Copy **Pip-Photocopy/** (or the whole project) to the new machine or working directory.
+You need to place the "Pip-photocopy.py" script in the same directory as your running Python script on your machine and then run it.
+Copy the two files from the contents of the "Pip-Photocopy" directory that was created ("pyenv_clone.txt" and "install_env.sh" OR "install_env.bat"...)
+
+## 1. Copy the files
+Copy the files ("pyenv_clone.txt" et "install_env.sh" OU "install_env.bat"...) of **Pip-Photocopy/** (or the whole project) to the new machine or working directory.
 
 ```bash
 cd /path/to/your-project
@@ -121,7 +129,8 @@ python -m venv .venv
 ---
 
 ## 3. Run the installation script
-Move into **Pip-Photocopy/** and run :
+copy "pyenv_clone.txt" and "install_env.sh" OR "install_env.bat" into your new folder with the new virtual enrionnement,
+And launch:
 
 | Platform | Command |
 |----------|---------|
