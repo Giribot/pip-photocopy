@@ -31,7 +31,8 @@ Use a virtual environment (python -m venv .venv) to avoid system pollution.
 Regenerate pyenv_clone.txt whenever you add or upgrade packages.
 
 Test the installer on a fresh container/VM to ensure reproducibility.
-
+```
+---
 
 # Guide d'utilisation : Pip‑Photocopy
 
@@ -40,7 +41,7 @@ Copiez **Pip-Photocopy/** (ou l'ensemble du projet) sur la nouvelle machine ou d
 
 ```bash
 cd /chemin/vers/your-project
-```
+
 
 ---
 
